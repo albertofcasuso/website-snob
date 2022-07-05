@@ -1,0 +1,39 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    &-image{
+        margin:0 auto;
+    }
+    &-text{
+        margin:0 auto;
+        &__intro{
+            text-align: center;
+        }
+        &__portafolio{
+            text-align: center;
+            ul{
+                list-style-type: none;
+                li{
+                    display: inline;
+                    a{
+                        margin: 20px;
+                    }
+                }
+            }
+        }
+        &__servicios{
+            text-align: center;
+        }
+        hr{
+            border-top: 1px solid black;
+            max-width: 60%;
+        }
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    .container{
+        display: flex;
+        flex-direction: row;
+    }
+}
