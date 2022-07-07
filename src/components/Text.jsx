@@ -9,7 +9,7 @@ export const Text = () =>{
                 <h1>MAZDEY</h1>
                 <p>Directora audiovisual y creativa especializada en <span>FASHION FILMS</span>.</p>
                 <p>Creación de vídeos para moda, música, arte y estilo de vida.</p>
-                <Link className="link" to="/sobre-mi">Leer más</Link>
+                {/* <Link className="link" to="/sobre-mi">Leer más</Link> */}
             </div>
             <hr/>
 
