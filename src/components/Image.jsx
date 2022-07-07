@@ -1,4 +1,5 @@
-import image from '../assets/image.jpg'
+import image from '../assets/portadaordenador.png'
+
 export const Image = () => {
     return(
     <div className="container-image">
