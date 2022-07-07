@@ -7,8 +7,8 @@ export const Text = () =>{
         <div className="container-text">
             <div className="container-text__intro">
                 <h1>MAZDEY</h1>
-                <p>Directora audiovisual y creativa, especializada en <span>#FASHIONFILMS</span></p>
-                <p>Creacion de videos para moda, musica, arte y estilo de vida.</p>
+                <p>Directora audiovisual y creativa especializada en <span>FASHION FILMS</span>.</p>
+                <p>Creación de vídeos para moda, música, arte y estilo de vida.</p>
                 <Link className="link" to="/sobre-mi">Leer más</Link>
             </div>
             <hr/>
@@ -26,11 +26,11 @@ export const Text = () =>{
             </div>
             <hr/>
             <div className="container-text__servicios">
-                <p>Servicios audiovisuales y creativos para todes quienes necesiten realizar una idea en video.</p>
-                <p>Desarrollo y gestion de todo lo necesario para la realizacion de tu video, desde pensar la idea/historia/concepto, hasta el producto final.</p>
-                <h3>SERVICIOS</h3>
-                <p>direccion creativa/ direccion de arte / coordinacion de moda / edicion de video</p>
-                <p>consultoria para proyectos audiovisuales e industrias creativas</p>
+                <p>Servicios audiovisuales y creativos para quienes necesiten realizar una idea en vídeo.</p>
+                <p>Desarrollo y gestión de todo lo necesario para la realización de tu vídeo, desde pensar la idea / historia / concepto, hasta el producto final.</p>
+                <h3>+ SERVICIOS</h3>
+                <p className="masservicios">dirección creativa / dirección de arte / coordinación de moda / edición de vídeo</p>
+                <p className="masservicios">consultoría para proyectos audiovisuales e industrias creativas</p>
             </div>
         </div>)
 }
