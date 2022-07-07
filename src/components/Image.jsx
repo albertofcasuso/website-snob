@@ -1,4 +1,4 @@
-import image from '../assets/portadaordenador.png'
+import image from '../assets/portadamovil.webp'
 
 export const Image = () => {
     return(
