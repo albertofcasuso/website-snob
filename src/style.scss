@@ -127,5 +127,26 @@ body {
     .container{
         display: flex;
         flex-direction: row;
+        &-image{
+            align-items: center;
+            display: flex;
+        flex-direction: row;
+            img{
+                content: url('./assets/portadaordenador.png');
+            }
+        }
+        &-text{
+            margin:0px 20px 0px 20px;
+            &__container{
+                .email{
+                    margin-top: 60px;
+                }
+            }
+            &__servicios{
+                .masservicios{
+                    margin:20px auto;
+                }
+            }
+        }
     }
 }
