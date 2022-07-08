@@ -37,6 +37,7 @@ function SobreMi() {
       </div>
       <hr />
       <div className="container-sobremi__premios">
+      <p><span className="negritas"> Best Experimental Short Winner </span> - NOVA Frontier Film Festival  (Brooklyn, New York, 2022)</p>
         <p>
           <span className="negritas">1First place People's Choice Winner </span>
           ASVOFF 13 (París, Francia, 2021)
@@ -111,7 +112,106 @@ function SobreMi() {
         <p>
           <span className="negritas">Girona Film Festival </span> (2021)
         </p>
+        <p>
+          <span className="negritas">VAEFF</span> (New, york 2021)
+        </p>
+        <p>
+          <span className="negritas"> Chicago Fashion Film Festival </span>
+          (2016), (2017), (2020)
+        </p>
+        <p>
+          <span className="negritas">
+            Bokeh South Africa Fashion Film Festival
+          </span>
+          (2017) (2021)
+        </p>
+        <p>
+          <span className="negritas">Croatia Fashion Film</span> Festival “Best
+          actor” & “Best Makeup” Nominee (2021)
+        </p>
+        <p>
+          <span className="negritas">UK FASHION FILM FESTIVAL </span>“Best actor
+          winner” (2021)
+        </p>
+        <p>
+          <span className="negritas">Fashion Film Festival Amsterdam </span>
+          (2021)
+        </p>
+        <p>
+          <span className="negritas">Buenos Aires Fashion Film Festival </span>
+          (2021)
+        </p>
+        <p>
+          <span className="negritas">Kino Short Film Festival </span>( UK, 2021)
+        </p>
+        <p>
+          <span className="negritas">Istanbul Fashion Film Festival</span>
+          (2018), (2021)
+        </p>
+        <p>
+          <span className="negritas">Bucharest Fashion Film Festival</span>
+          (Romania, 2021)
+        </p>
+        <p>
+          <span className="negritas">Beijing Queer Film Festival</span> (2021)
+        </p>
+        <p>
+          <span className="negritas"> Aesthetica concept </span>(Irlanda, 2020)
+        </p>
+        <p>
+          <span className="negritas">
+            Caribbean Fashion and Arts Feature Festival
+          </span>
+          (2017)
+        </p>
+        <p>
+          <span className="negritas">Porto Fashion Film Festival </span> (2019)
+          y (2020)
+        </p>
+        <p>
+          <span className="negritas">
+            Republica Dominicana Fashion FilmFestival
+          </span>
+          (2018) (2020)
+        </p>
+        <p>
+          <span className="negritas">Copenhagen Fashion Film </span>(2016)
+        </p>
+        <p>
+          <span className="negritas">Mexico Fashion Film Festival </span> (2016)
+          y (2017)
+        </p>
+        <p>
+          <span className="negritas"> Dulcísimo Ovario </span> - Pachucha,
+          Hidalgo (2018) (2020) (2021)
+        </p>
+        <p>
+          <span className="negritas">Cinexmujeres </span> (2020)
+        </p>
+        <p>
+          <span className="negritas">Las Mains Gauche </span> - Francia (2021)
+        </p>
+        <p>
+          <span className="negritas">Pigdon </span> - Australia (2021)
+        </p>
+        <p>
+          <span className="negritas">
+            Melbourne Australian Fashion Film Festival
+          </span>
+          (2021)
+        </p>
+        <p>
+          <span className="negritas">Cinema Femme Short-Film Festival </span> -
+          Chicago (2021)
+        </p>
+        <p>
+          <span className="negritas">Taste Awards </span>- (2021)
+        </p>
+        <p>
+          <span className="negritas">Fashion Film Festival Kyiv </span> (2021)
+        </p>
       </div>
+      <div className="container-sobremi__"></div>
     </div>
   );
 }
