@@ -1,6 +1,5 @@
-import instagram from '../assets/icono_instagram.png'
-import vimeo from '../assets/icono_vimeo.png'
-import Image from 'next/image'
+import InstagramLink from './InstagramLink'
+import VimeoLink from './VimeoLink'
 import Link from 'next/link'
 
 function Text(){
@@ -10,17 +9,17 @@ function Text(){
                 <h1>MAZDEY</h1>
                 <p>Directora audiovisual y creativa especializada en <span>FASHION FILMS</span>.</p>
                 <p>Creación de vídeos para moda, música, arte y estilo de vida.</p>
-                <Link href="/sobre-mi">
+                {/* <Link href="/sobre-mi">
                     <a className="link">Leer Más</a>
-                </Link>
+                </Link> */}
             </div>
             <hr/>
 
             <div className="container-text__portafolio">
                 <h3>PORTAFOLIO</h3>
                 <ul>
-                    <li><a className="vimeo-icon" href="https://vimeo.com/snobsolutions" target="_blank" rel="noopener noreferrer"><Image src={vimeo} alt="vimeo icon"/></a></li>
-                    <li><a className="instagram-icon" href="https://instagram.com/snobsolutions" target="_blank" rel="noopener noreferrer"><Image src={instagram} alt="instagram icon"/></a></li>
+                    <li><VimeoLink/></li>
+                    <li><InstagramLink/></li>
                 </ul>
                 <div className="email">
                     <a href="mailto:the@snobsolutions.com">the@snobsolutions.com</a>
