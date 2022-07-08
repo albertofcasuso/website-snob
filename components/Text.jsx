@@ -1,23 +1,24 @@
-import { Link } from "react-router-dom";
 import instagram from '../assets/icono_instagram.png'
 import vimeo from '../assets/icono_vimeo.png'
+import Image from 'next/image'
+import Link from 'next/link'
 
-export const Text = () =>{
+function Text(){
     return(
         <div className="container-text">
             <div className="container-text__intro">
                 <h1>MAZDEY</h1>
                 <p>Directora audiovisual y creativa especializada en <span>FASHION FILMS</span>.</p>
                 <p>Creación de vídeos para moda, música, arte y estilo de vida.</p>
-                {/* <Link className="link" to="/sobre-mi">Leer más</Link> */}
+                {/* <Link className="link" href="/sobre-mi">Leer más</Link> */}
             </div>
             <hr/>
 
             <div className="container-text__portafolio">
                 <h3>PORTAFOLIO</h3>
                 <ul>
-                    <li><a className="vimeo-icon" href="https://vimeo.com/snobsolutions" target="_blank" rel="noopener noreferrer"><img src={vimeo} alt="vimeo icon"/></a></li>
-                    <li><a className="instagram-icon" href="https://instagram.com/snobsolutions" target="_blank" rel="noopener noreferrer"><img src={instagram} alt="instagram icon"/></a></li>
+                    <li><a className="vimeo-icon" href="https://vimeo.com/snobsolutions" target="_blank" rel="noopener noreferrer"><Image src={vimeo} alt="vimeo icon"/></a></li>
+                    <li><a className="instagram-icon" href="https://instagram.com/snobsolutions" target="_blank" rel="noopener noreferrer"><Image src={instagram} alt="instagram icon"/></a></li>
                 </ul>
                 <div className="email">
                     <a href="mailto:the@snobsolutions.com">the@snobsolutions.com</a>
@@ -34,3 +35,5 @@ export const Text = () =>{
             </div>
         </div>)
 }
+
+export default Text
