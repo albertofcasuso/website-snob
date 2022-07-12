@@ -359,7 +359,7 @@ function SobreMi() {
         <h1 id="prensa">PRENSA</h1>
         <p>
           <a href=" https://i-d.vice.com/it/article/epxbqm/migliori-fashion-film-2021" rel='noopener noreferrer' target='_blank'>
-            "Mijo" ID- Italy
+            &quot;Mijo&quot; ID- Italy
             Among the 21 FASHION FILMS FAVS by the Vice team
           </a>
         </p>
