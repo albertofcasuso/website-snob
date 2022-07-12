@@ -56,7 +56,7 @@ function SobreMi() {
           NOVA Frontier Film Festival (Brooklyn, New York, 2022)
         </p>
         <p>
-          <span className="negritas">1First place People's Choice Winner </span>
+          <span className="negritas">1 First place People&apos;s Choice Winner </span>
           ASVOFF 13 (París, Francia, 2021)
         </p>
         <p>
