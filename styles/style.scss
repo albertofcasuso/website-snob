@@ -133,6 +133,7 @@ body {
     display: flex;
     flex-direction: column;
     color: rgba(0, 0, 0, 0.8);
+    font-size: 0.9em;
     hr {
       width: 60%;
     }
@@ -187,8 +188,8 @@ body {
         font-weight: bold;
       }
       h1{
-        margin:50px 50px;
-        font-size: 50px;
+        margin:20px;
+        font-size: 40px;
         font-weight: 100;
       }
       p{
@@ -201,8 +202,8 @@ body {
         font-weight: bold;
       }
       h1{
-        margin:50px 50px;
-        font-size: 50px;
+        margin:20px;
+        font-size: 40px;
         font-weight: 100;
       }
       p{
@@ -212,9 +213,14 @@ body {
     }
     &__prensa{
       h1{
-        margin:50px 50px;
-        font-size: 50px;
+        margin:20px;
+        font-size: 40px;
         font-weight: 100;
+      }
+      p{
+        a{
+          color: rgba(0, 0, 0, 0.8);
+        }
       }
     }
   }
