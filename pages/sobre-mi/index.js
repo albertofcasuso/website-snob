@@ -6,7 +6,7 @@ function SobreMi() {
   return (
     <div className="container-sobremi">
       <div className="container-sobremi__title">
-        <h3><a href="#premios">PREMIOS</a> / <a href="#charlas">CONFERENCIAS</a> / <a href="#prensa">PRENSA</a></h3>
+        <h1><a href="#premios">PREMIOS</a> / <a href="#charlas">CONFERENCIAS</a> / <a href="#prensa">PRENSA</a></h1>
       </div>
 
       <hr/>
@@ -14,7 +14,7 @@ function SobreMi() {
       <div className="container-sobremi__personal">
 
         <div className="container-sobremi__personal-titulo">
-        <h3>MAZDEY SNOB</h3>
+        <h1>MAZDEY SNOB</h1>
         <InstagramLink />
         {/* <Image src={headshot} alt="headshot mazdey" width={'150px'} height={'150px'}/> */}
         </div>
@@ -50,7 +50,7 @@ function SobreMi() {
 
       <hr />
       <div className="container-sobremi__premios">
-        <h3 id="premios">PREMIOS</h3>
+        <h1 id="premios">PREMIOS</h1>
         <p>
           <span className="negritas"> Best Experimental Short Winner </span> -
           NOVA Frontier Film Festival (Brooklyn, New York, 2022)
@@ -230,7 +230,7 @@ function SobreMi() {
       </div>
       <hr/>
       <div className="container-sobremi__charlas">
-      <h3 id="charlas">CONFERENCIAS</h3>
+      <h1 id="charlas">CONFERENCIAS</h1>
         <p>
           <span className="negritas">
             INTERMODA, (Guadalajara, México, 2022)
@@ -254,8 +254,8 @@ function SobreMi() {
         <br />
         <p>
           <span className="negritas">
-            {" "}
-            DIVERSE, Moda e industrias creativas (Bilbao, España, 2022){" "}
+            
+            DIVERSE, Moda e industrias creativas (Bilbao, España, 2022)
           </span>
         </p>
         <p>“Fashion Film como estrategia de marca”</p>
@@ -274,15 +274,15 @@ function SobreMi() {
         <br />
         <p>
           <span className="negritas">
-            {" "}
-            UNAM - FCentro de estudios en Ciencas de la Comunicación.{" "}
+            
+            UNAM - FCentro de estudios en Ciencas de la Comunicación.
           </span>
         </p>
         <p>“Realización de un Fashion Film” </p>
         <br />
         <p>
           <span className="negritas">
-            {" "}
+            
             Universidad Anáhuac Mayab (Merida, Yucatán. 2019)
           </span>
         </p>
@@ -290,7 +290,7 @@ function SobreMi() {
         <br />
         <p>
           <span className="negritas">
-            {" "}
+            
             UVM Campus Lomas Verdes (CDMX, 2015)
           </span>
         </p>
@@ -298,7 +298,7 @@ function SobreMi() {
         <br />
         <p>
           <span className="negritas">
-            {" "}
+            
             Puebla Viste Diseño (Zaragoza, Puebla. 2020)
           </span>
         </p>
@@ -307,7 +307,7 @@ function SobreMi() {
         <br />
         <p>
           <span className="negritas">
-            {" "}
+            
             Puebla Viste Diseño (Zaragoza, Puebla. ANIVERSARIO)
           </span>
         </p>
@@ -325,7 +325,7 @@ function SobreMi() {
 
         <p>
           <span className="negritas">
-            {" "}
+            
             Hilario México (León, Guanajuato, 2020)
           </span>
         </p>
@@ -335,7 +335,7 @@ function SobreMi() {
 
         <p>
           <span className="negritas">
-            {" "}
+            
             Ka Volta Magazine (Guadalajara, 2020)
           </span>
         </p>
@@ -351,6 +351,10 @@ function SobreMi() {
           “Masterclass: Realización Fashion Film” + Jurado del concurso LeónFF
         </p>
         <br />
+      </div>
+      <div className="container-sobremi__prensa">
+        <h1 id="prensa">PRENSA</h1>
+
       </div>
       </div>
   );

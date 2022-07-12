@@ -132,17 +132,18 @@ body {
     text-align: center;
     display: flex;
     flex-direction: column;
+    color: rgba(0, 0, 0, 0.8);
     hr {
       width: 60%;
     }
-    h3{
+    h1{
       font-family: "BebasNeue";
     }
     p{
       font-family: 'CaviarDreams';
     }
     &__title {
-      h3 {
+      h1 {
         font-weight: 100;
         font-size: 20px;
         margin: 15px auto;
@@ -160,14 +161,14 @@ body {
         justify-content: center;
         align-items: center;
         // height:30px;
-        h3{
+        h1{
           margin:0 20px;
           font-size: 50px;
           font-weight: 100;
         }
       }
       &-texto{
-        width: 90%;
+        width: 95%;
         margin: 0 auto;
         p{
           margin:20px 20px;
@@ -185,7 +186,7 @@ body {
       .negritas {
         font-weight: bold;
       }
-      h3{
+      h1{
         margin:50px 50px;
         font-size: 50px;
         font-weight: 100;
@@ -199,7 +200,7 @@ body {
       .negritas {
         font-weight: bold;
       }
-      h3{
+      h1{
         margin:50px 50px;
         font-size: 50px;
         font-weight: 100;
@@ -207,6 +208,13 @@ body {
       p{
         margin:5px;
         text-align: center;
+      }
+    }
+    &__prensa{
+      h1{
+        margin:50px 50px;
+        font-size: 50px;
+        font-weight: 100;
       }
     }
   }
