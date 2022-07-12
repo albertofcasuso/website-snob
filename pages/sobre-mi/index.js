@@ -1,17 +1,24 @@
 import InstagramLink from "../../components/InstagramLink";
+import Image from "next/image";
+import headshot from '../../assets/headshot_mazdey.png'
 
 function SobreMi() {
   return (
     <div className="container-sobremi">
       <div className="container-sobremi__title">
-        <h3>PREMIOS / CONFERENCIAS / PRENSA</h3>
+        <h3><a href="#premios">PREMIOS</a> / <a href="#charlas">CONFERENCIAS</a> / <a href="#prensa">PRENSA</a></h3>
       </div>
-      <hr />
+
+      <hr/>
+
       <div className="container-sobremi__personal">
-        <div className="container-sobremi__personal-texto">
-          <h3>MAZDEY SNOB</h3>
-          <InstagramLink />
+
+        <div className="container-sobremi__personal-titulo">
+        <h3>MAZDEY SNOB</h3>
+        <InstagramLink />
+        {/* <Image src={headshot} alt="headshot mazdey" width={'150px'} height={'150px'}/> */}
         </div>
+
         <div className="container-sobremi__personal-texto">
           <p>
             Nacida en México y actualmente viviendo en España. Mazdey estudio la
@@ -20,7 +27,9 @@ function SobreMi() {
             cinematográfica. A través del fashion film, ha explorado el lenguaje
             audiovisual creando historias que reflejan su propia visión del
             mundo.
+            
           </p>
+          
           <p>
             Mazdey también es la fundadora de Snob Solutions, una productora
             audiovisual independiente que se enfoca en proyectos de moda, arte,
@@ -31,13 +40,21 @@ function SobreMi() {
             artistas, diseñadores y marcas de moda, varias universidades y
             plataformas la han contratado para hablar sobre el fashion film como
             género a través de su experiencia como directora y este año fue
-            invitada
+            invitada invitada como curadora especializada para el festival GRRL
+            HAUS CINEMA de Berlín. Durante su trayectora su trabajo ha sido
+            premiado y seleccionado, en varios festivales internacionales de
+            fashion film.
           </p>
-        </div>
       </div>
+      </div>
+
       <hr />
       <div className="container-sobremi__premios">
-      <p><span className="negritas"> Best Experimental Short Winner </span> - NOVA Frontier Film Festival  (Brooklyn, New York, 2022)</p>
+        <h3 id="premios">PREMIOS</h3>
+        <p>
+          <span className="negritas"> Best Experimental Short Winner </span> -
+          NOVA Frontier Film Festival (Brooklyn, New York, 2022)
+        </p>
         <p>
           <span className="negritas">1 First place People&apos;s Choice Winner </span>
           ASVOFF 13 (París, Francia, 2021)
@@ -90,7 +107,7 @@ function SobreMi() {
           <span className="negritas"> GRRL HAUS Cinema </span> - Berlin (2018),
           (2021)
         </p>
-        GRRL HAUS TELEPHONE (2021)
+        <p><span className="negritas">GRRL HAUS TELEPHONE</span> (2021)</p>
         <p>
           <span className="negritas"> Femme Frontera Filmmaker Showcase</span>
           (El Paso, Texas, 2021)
@@ -211,8 +228,131 @@ function SobreMi() {
           <span className="negritas">Fashion Film Festival Kyiv </span> (2021)
         </p>
       </div>
-      <div className="container-sobremi__"></div>
-    </div>
+      <hr/>
+      <div className="container-sobremi__charlas">
+      <h3 id="charlas">CONFERENCIAS</h3>
+        <p>
+          <span className="negritas">
+            INTERMODA, (Guadalajara, México, 2022)
+          </span>
+        </p>
+        <p>IM TALKS “FASHION FILM: LA NUEVA ESTRATEGIA DE MARCA” </p>
+        <br />
+        <p>
+          <span className="negritas">
+            GRRL HAUS CINEMA, (Berlín, Alemania, 2022)
+          </span>
+        </p>
+        <p>Curaduría especializada en Fashion Film </p>
+        <br />
+        <p>
+          <span className="negritas">
+            CANIFF CHATS (2021) CANADIAN INTERNATIONAL FASHION FILM FESTIVAL
+          </span>
+        </p>
+        <p>IG LIVE con Roger Gingerich Director del Festival</p>
+        <br />
+        <p>
+          <span className="negritas">
+            {" "}
+            DIVERSE, Moda e industrias creativas (Bilbao, España, 2022){" "}
+          </span>
+        </p>
+        <p>“Fashion Film como estrategia de marca”</p>
+        <p>
+          <span className="negritas"> Moda punto 3 (Zacatecas, 2021)</span>
+        </p>
+        <p>“Fashion Film como estrategia de marca”</p>
+        <br />
+        <p>
+          <span className="negritas">
+            Universidad de Guadalajara, Centro de Arte, Arquitectura y Diseño
+            Coloquio de diseño.
+          </span>
+        </p>
+        <p>“Fashion film como herramienta de comunicación”</p>
+        <br />
+        <p>
+          <span className="negritas">
+            {" "}
+            UNAM - FCentro de estudios en Ciencas de la Comunicación.{" "}
+          </span>
+        </p>
+        <p>“Realización de un Fashion Film” </p>
+        <br />
+        <p>
+          <span className="negritas">
+            {" "}
+            Universidad Anáhuac Mayab (Merida, Yucatán. 2019)
+          </span>
+        </p>
+        <p>“Fashion Film como estrategia de marca” </p>
+        <br />
+        <p>
+          <span className="negritas">
+            {" "}
+            UVM Campus Lomas Verdes (CDMX, 2015)
+          </span>
+        </p>
+        <p>“Dirección y arte para un Fashion Film”</p>
+        <br />
+        <p>
+          <span className="negritas">
+            {" "}
+            Puebla Viste Diseño (Zaragoza, Puebla. 2020)
+          </span>
+        </p>
+
+        <p>“Fashion Film como estrategia de marca”</p>
+        <br />
+        <p>
+          <span className="negritas">
+            {" "}
+            Puebla Viste Diseño (Zaragoza, Puebla. ANIVERSARIO)
+          </span>
+        </p>
+        <p>
+          “Siete pecados capitales del fashion film” (Errores y como mejorar
+          para comunicar)
+        </p>
+        <br />
+        <p>
+          <span className="negritas"> Aesthetica Concept (Irlanda, 2020)</span>
+        </p>
+
+        <p>Take over </p>
+        <br />
+
+        <p>
+          <span className="negritas">
+            {" "}
+            Hilario México (León, Guanajuato, 2020)
+          </span>
+        </p>
+
+        <p>“Fashion Film; Show your brand, show your passion “</p>
+        <br />
+
+        <p>
+          <span className="negritas">
+            {" "}
+            Ka Volta Magazine (Guadalajara, 2020)
+          </span>
+        </p>
+
+        <p>“Fashion film para el futuro de la industria “</p>
+        <br />
+
+        <p>
+          <span className="negritas"> LeónFF (León, Guanajuato, 2020)</span>
+        </p>
+
+        <p>
+          “Masterclass: Realización Fashion Film” + Jurado del concurso LeónFF
+        </p>
+        <br />
+      </div>
+      </div>
   );
 }
 
