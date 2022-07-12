@@ -1,11 +1,13 @@
 import InstagramLink from "../../components/InstagramLink";
 import Image from "next/image";
+import Link from 'next/link'
 import headshot from '../../assets/headshot_mazdey.png'
 
 function SobreMi() {
   return (
     <div className="container-sobremi">
       <div className="container-sobremi__title">
+        <h1 className="home"><Link href="/"><a>&lt; HOME</a></Link></h1>
         <h1><a href="#premios">PREMIOS</a> / <a href="#charlas">CONFERENCIAS</a> / <a href="#prensa">PRENSA</a></h1>
       </div>
 
