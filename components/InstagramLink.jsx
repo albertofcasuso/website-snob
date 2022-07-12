@@ -10,7 +10,7 @@ function InstagramLink() {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <Image src={instagram} alt="instagram icon" />
+        <Image src={instagram} width="45px" height="45px" alt="instagram icon" />
       </a>
     </>
   );
