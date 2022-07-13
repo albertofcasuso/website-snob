@@ -1,7 +1,6 @@
 import "../styles/style.scss";
 import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
-import { getPerformance } from "firebase/performance";
 import { useEffect } from "react";
 
 function App({ Component, pageProps }) {
@@ -20,7 +19,6 @@ function App({ Component, pageProps }) {
     if (process.env.NODE_ENV === 'production') {
       const app = initializeApp(firebaseConfig);
       const analytics = getAnalytics(app);
-      const perf = getPerformance(app);
     }
   }, [])
   return <Component {...pageProps} />;
