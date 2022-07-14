@@ -9,7 +9,7 @@ function Text(){
                 <h1>MAZDEY</h1>
                 <p>Directora audiovisual y creativa especializada en <span>FASHION FILMS</span>.</p>
                 <p>Creación de vídeos para moda, música, arte y estilo de vida.</p>
-                <Link href="/sobre-mi">
+                <Link prefetch={true} href="/sobre-mi">
                     <a className="link">Leer Más</a>
                 </Link>
             </div>
