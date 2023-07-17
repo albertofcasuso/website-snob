@@ -2,10 +2,8 @@
 const nextConfig = {
   reactStrictMode: true,
   distDir: "build",
-  experimental:{
-    images:{
-      unoptimized:true
-    }
-  }
+  images: {
+    unoptimized: true,
+  },
 };
 module.exports = nextConfig;
