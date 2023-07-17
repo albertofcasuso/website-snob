@@ -1,20 +1,24 @@
 import InstagramLink from "../../components/InstagramLink";
 import Image from "next/image";
-import Link from 'next/link'
-import headshot from '../../assets/headshot_mazdey.png'
+import Link from "next/link";
+import headshot from "../../assets/headshot_mazdey.png";
 
 function SobreMi() {
   return (
     <div className="container-sobremi">
       <div className="container-sobremi__title">
-        <h1 className="home"><Link href="/"><a>&lt; HOME</a></Link></h1>
-        <h1><a href="#premios">PREMIOS</a> / <a href="#charlas">CONFERENCIAS</a> / <a href="#prensa">PRENSA</a></h1>
+        <h1 className="home">
+          <Link href="/">&lt; HOME</Link>
+        </h1>
+        <h1>
+          <a href="#premios">PREMIOS</a> / <a href="#charlas">CONFERENCIAS</a> /{" "}
+          <a href="#prensa">PRENSA</a>
+        </h1>
       </div>
 
       <hr />
 
       <div className="container-sobremi__personal">
-
         <div className="container-sobremi__personal-titulo">
           <h1>MAZDEY SNOB</h1>
           <InstagramLink />
@@ -29,7 +33,6 @@ function SobreMi() {
             cinematográfica. A través del fashion film, ha explorado el lenguaje
             audiovisual creando historias que reflejan su propia visión del
             mundo.
-
           </p>
 
           <p>
@@ -58,7 +61,9 @@ function SobreMi() {
           NOVA Frontier Film Festival (Brooklyn, New York, 2022)
         </p>
         <p>
-          <span className="negritas">1 First place People&apos;s Choice Winner </span>
+          <span className="negritas">
+            1 First place People&apos;s Choice Winner{" "}
+          </span>
           ASVOFF 13 (París, Francia, 2021)
         </p>
         <p>
@@ -109,7 +114,9 @@ function SobreMi() {
           <span className="negritas"> GRRL HAUS Cinema </span> - Berlin (2018),
           (2021)
         </p>
-        <p><span className="negritas">GRRL HAUS TELEPHONE</span> (2021)</p>
+        <p>
+          <span className="negritas">GRRL HAUS TELEPHONE</span> (2021)
+        </p>
         <p>
           <span className="negritas"> Femme Frontera Filmmaker Showcase</span>
           (El Paso, Texas, 2021)
@@ -256,7 +263,6 @@ function SobreMi() {
         <br />
         <p>
           <span className="negritas">
-
             DIVERSE, Moda e industrias creativas (Bilbao, España, 2022)
           </span>
         </p>
@@ -276,7 +282,6 @@ function SobreMi() {
         <br />
         <p>
           <span className="negritas">
-
             UNAM - FCentro de estudios en Ciencas de la Comunicación.
           </span>
         </p>
@@ -284,23 +289,18 @@ function SobreMi() {
         <br />
         <p>
           <span className="negritas">
-
             Universidad Anáhuac Mayab (Merida, Yucatán. 2019)
           </span>
         </p>
         <p>“Fashion Film como estrategia de marca” </p>
         <br />
         <p>
-          <span className="negritas">
-
-            UVM Campus Lomas Verdes (CDMX, 2015)
-          </span>
+          <span className="negritas">UVM Campus Lomas Verdes (CDMX, 2015)</span>
         </p>
         <p>“Dirección y arte para un Fashion Film”</p>
         <br />
         <p>
           <span className="negritas">
-
             Puebla Viste Diseño (Zaragoza, Puebla. 2020)
           </span>
         </p>
@@ -309,7 +309,6 @@ function SobreMi() {
         <br />
         <p>
           <span className="negritas">
-
             Puebla Viste Diseño (Zaragoza, Puebla. ANIVERSARIO)
           </span>
         </p>
@@ -327,7 +326,6 @@ function SobreMi() {
 
         <p>
           <span className="negritas">
-
             Hilario México (León, Guanajuato, 2020)
           </span>
         </p>
@@ -337,7 +335,6 @@ function SobreMi() {
 
         <p>
           <span className="negritas">
-
             Ka Volta Magazine (Guadalajara, 2020)
           </span>
         </p>
@@ -358,54 +355,127 @@ function SobreMi() {
       <div className="container-sobremi__prensa">
         <h1 id="prensa">PRENSA</h1>
         <p>
-          <a href=" https://i-d.vice.com/it/article/epxbqm/migliori-fashion-film-2021" rel='noopener noreferrer' target='_blank'>
-            &quot;Mijo&quot; ID- Italy
-            Among the 21 FASHION FILMS FAVS by the Vice team
+          <a
+            href=" https://i-d.vice.com/it/article/epxbqm/migliori-fashion-film-2021"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            &quot;Mijo&quot; ID- Italy Among the 21 FASHION FILMS FAVS by the
+            Vice team
           </a>
         </p>
         <p>
-          <a href=" https://directorsnotes.com/2022/02/15/mazdey-snob-mijo/" rel='noopener noreferrer' target='_blank'>
+          <a
+            href=" https://directorsnotes.com/2022/02/15/mazdey-snob-mijo/"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
             Director´s Notes Interview
           </a>
         </p>
-        <p><a href=" https://visualaggression.com/art-design/mazdey-y-su-interesante-vision-del-fashion-film-moda-directora/" rel='noopener noreferrer' target='_blank'>
-          Mazdey y su interesante visión del Fashion Film
-        </a>
-        </p>
-        <p >
-          <a href=" https://cinemafemme.com/2022/05/20/interview-mijo-director-mazdey-snob-2022-recipient-of-the-cinema-femme-short-film-fest-phenomenal-woman-in-film-award/" rel='noopener noreferrer' target='_blank'> Interview: “Mijo” director Mazdey Snob, 2022 recipient of the Cinema Femme Short Film Fest Phenomenal Woman in Film award
-          </a>
-        </p >
         <p>
-          <a href=" https://www.kinoshortfilm.com/blog/2020/12/18/short-of-the-week-mijo" rel='noopener noreferrer' target='_blank'>
+          <a
+            href=" https://visualaggression.com/art-design/mazdey-y-su-interesante-vision-del-fashion-film-moda-directora/"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            Mazdey y su interesante visión del Fashion Film
+          </a>
+        </p>
+        <p>
+          <a
+            href=" https://cinemafemme.com/2022/05/20/interview-mijo-director-mazdey-snob-2022-recipient-of-the-cinema-femme-short-film-fest-phenomenal-woman-in-film-award/"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            {" "}
+            Interview: “Mijo” director Mazdey Snob, 2022 recipient of the Cinema
+            Femme Short Film Fest Phenomenal Woman in Film award
+          </a>
+        </p>
+        <p>
+          <a
+            href=" https://www.kinoshortfilm.com/blog/2020/12/18/short-of-the-week-mijo"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
             Kino London “Mijo” Short of the week, interview
           </a>
         </p>
 
-        <p> <a href=" https://www.pigdonfilmfest.com/mijo-mazdey-snob" rel='noopener noreferrer' target='_blank'>
-          Pigdon Film Festival - Interview
-        </a> </p>
-        <p > <a href=" https://www.kavolta.com/2019/03/snob-solutions/ " rel='noopener noreferrer' target='_blank'>
-          Snob Solutions, narrando historias a través del fashion film - Kavolta
-        </a> </p >
-        <p > <a href=" https://www.neo2.com/fashion-film-mijo-mazdey-snob-mexico-anos-40-pachucos/" rel='noopener noreferrer' target='_blank'>
-          Neo2 Magazine - “Estreno de Mijo”
-        </a> </p >
-        <p > <a href=" https://bubblegumclub.co.za/fashion/mijo-a-colourful-film-inspired-by-pachucos-fashion/" rel='noopener noreferrer' target='_blank'>
-          Bubblegum Club -  Johannesburg, South Africa
-        </a> </p >
-        <p > <a href=" https://www.kavolta.com/2020/07/mazdey-snob-solutions-fashion-film-kavoltalive/ " rel='noopener noreferrer' target='_blank'>
-
-          Entrevista con Mazdey, El Fashion Film para el #futuromoda
-        </a> </p >
-        <p > <a href=" https://www.kavolta.com/2015/03/entrevista-snob-solutions/ " rel='noopener noreferrer' target='_blank'>
-          Entrevista / Snob Solutions Fashion Film
-        </a> </p >
-        <p > <a href=" http://geekgirls.com.mx/el-storytelling-en-videos-de-moda-en-guadalajara/ " rel='noopener noreferrer' target='_blank'>
-          El storytelling en videos de moda - Mazdey
-        </a> </p >
-      </div >
-    </div >
+        <p>
+          {" "}
+          <a
+            href=" https://www.pigdonfilmfest.com/mijo-mazdey-snob"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            Pigdon Film Festival - Interview
+          </a>{" "}
+        </p>
+        <p>
+          {" "}
+          <a
+            href=" https://www.kavolta.com/2019/03/snob-solutions/ "
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            Snob Solutions, narrando historias a través del fashion film -
+            Kavolta
+          </a>{" "}
+        </p>
+        <p>
+          {" "}
+          <a
+            href=" https://www.neo2.com/fashion-film-mijo-mazdey-snob-mexico-anos-40-pachucos/"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            Neo2 Magazine - “Estreno de Mijo”
+          </a>{" "}
+        </p>
+        <p>
+          {" "}
+          <a
+            href=" https://bubblegumclub.co.za/fashion/mijo-a-colourful-film-inspired-by-pachucos-fashion/"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            Bubblegum Club - Johannesburg, South Africa
+          </a>{" "}
+        </p>
+        <p>
+          {" "}
+          <a
+            href=" https://www.kavolta.com/2020/07/mazdey-snob-solutions-fashion-film-kavoltalive/ "
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            Entrevista con Mazdey, El Fashion Film para el #futuromoda
+          </a>{" "}
+        </p>
+        <p>
+          {" "}
+          <a
+            href=" https://www.kavolta.com/2015/03/entrevista-snob-solutions/ "
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            Entrevista / Snob Solutions Fashion Film
+          </a>{" "}
+        </p>
+        <p>
+          {" "}
+          <a
+            href=" http://geekgirls.com.mx/el-storytelling-en-videos-de-moda-en-guadalajara/ "
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            El storytelling en videos de moda - Mazdey
+          </a>{" "}
+        </p>
+      </div>
+    </div>
   );
 }
 
