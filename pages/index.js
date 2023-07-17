@@ -2,13 +2,9 @@ import Head from "next/head";
 import Cover from "../components/Image";
 import Text from "../components/Text";
 
-
-
 export default function Home() {
-
-
   return (
-    <div>
+    <>
       <Head>
         <title>Snob Solutions</title>
         <meta name="description" content="Snob Solutions" />
@@ -18,6 +14,6 @@ export default function Home() {
         <Cover />
         <Text />
       </div>
-    </div>
+    </>
   );
 }

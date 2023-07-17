@@ -12,6 +12,7 @@
 
 body {
   background-color: rgba(0, 0, 0, 0.1);
+  margin: 0;
 }
 
 .container {
@@ -19,10 +20,19 @@ body {
   flex-direction: column;
   align-items: center;
   &-image {
-    justify-content: center;
+    width: 100%;
+    > div {
+      position: unset !important;
+    }
+    .cover-image {
+      object-fit: contain;
+      width: 100% !important;
+      position: relative !important;
+      height: unset !important;
+    }
   }
   &-text {
-    // margin:0 auto;
+    margin: 0 auto;
     justify-content: center;
     width: 100%;
     &__intro {
@@ -137,11 +147,11 @@ body {
     hr {
       width: 60%;
     }
-    h1{
+    h1 {
       font-family: "BebasNeue";
     }
-    p{
-      font-family: 'CaviarDreams';
+    p {
+      font-family: "CaviarDreams";
     }
     &__title {
       h1 {
@@ -149,42 +159,41 @@ body {
         font-size: 20px;
         margin: 15px auto;
         opacity: 0.8;
-        a{
+        a {
           color: black;
         }
       }
-      .home{
+      .home {
         text-align: left;
-        a{
-          color:#999933;
+        a {
+          color: #999933;
         }
       }
     }
-    &__personal{
-      
-      &-titulo{
+    &__personal {
+      &-titulo {
         display: flex;
         flex-direction: row;
         justify-content: center;
         align-items: center;
         // height:30px;
-        h1{
-          margin:0 20px;
+        h1 {
+          margin: 0 20px;
           font-size: 50px;
           font-weight: 100;
         }
       }
-      &-texto{
+      &-texto {
         width: 95%;
         margin: 0 auto;
-        p{
-          margin:20px 20px;
+        p {
+          margin: 20px 20px;
           text-align: justify;
-          &:first-child{
+          &:first-child {
             // width: 50%;
           }
         }
-        img{
+        img {
           align-self: flex-end;
         }
       }
@@ -193,13 +202,13 @@ body {
       .negritas {
         font-weight: bold;
       }
-      h1{
-        margin:20px;
+      h1 {
+        margin: 20px;
         font-size: 40px;
         font-weight: 100;
       }
-      p{
-        margin:20px 20px;
+      p {
+        margin: 20px 20px;
         text-align: center;
       }
     }
@@ -207,24 +216,24 @@ body {
       .negritas {
         font-weight: bold;
       }
-      h1{
-        margin:20px;
+      h1 {
+        margin: 20px;
         font-size: 40px;
         font-weight: 100;
       }
-      p{
-        margin:5px;
+      p {
+        margin: 5px;
         text-align: center;
       }
     }
-    &__prensa{
-      h1{
-        margin:20px;
+    &__prensa {
+      h1 {
+        margin: 20px;
         font-size: 40px;
         font-weight: 100;
       }
-      p{
-        a{
+      p {
+        a {
           color: rgba(0, 0, 0, 0.8);
         }
       }
