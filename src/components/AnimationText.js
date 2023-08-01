@@ -13,7 +13,13 @@ export const AnimationText1 = () => {
   );
 };
 
-const skills = ["Designer", "Developer", "Freelancer"];
+const skills = [
+  "Directora audiovisual",
+  "Fashion Film",
+  "Edición de video",
+  "Consultora",
+];
+
 export const RotateTextAnimation = () => {
   const [text, setText] = useState(0);
   useEffect(() => {
