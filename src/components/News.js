@@ -21,7 +21,7 @@ const News = ({ ActiveIndex, animation }) => {
         var imgURL = list.getAttribute("data-img");
         box.style.backgroundImage = `url(${imgURL})`;
         box.style.top = event.clientY - 50 + "px";
-        console.log(event.clientY);
+        // console.log(event.clientY);
         if (imgURL === "") {
           box.classList.remove("opened");
           return false;

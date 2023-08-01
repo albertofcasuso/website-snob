@@ -25,7 +25,7 @@ export const RotateTextAnimation = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setText(text < skills.length - 1 ? text + 1 : 0);
-      console.log(skills.length - 1, text);
+      // console.log(skills.length - 1, text);
     }, 5000);
     return () => clearInterval(interval);
   });
@@ -49,7 +49,7 @@ export const ZoomTextAnimation = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setText(text < skills.length - 1 ? text + 1 : 0);
-      console.log(skills.length - 1, text);
+      // console.log(skills.length - 1, text);
     }, 5000);
     return () => clearInterval(interval);
   });

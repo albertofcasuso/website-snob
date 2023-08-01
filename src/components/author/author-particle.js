@@ -4,7 +4,7 @@ export default function AuthorDefault() {
   useEffect(() => {
     const particlesJS = window.particlesJS;
     particlesJS.load("particles-js", "particlesConfig.json", function () {
-      console.log("hi");
+      // console.log("hi");
     });
   }, []);
 
