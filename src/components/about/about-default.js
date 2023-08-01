@@ -20,22 +20,26 @@ const progressBarData = [
 
 const services = [
   {
-    desc: "Beautiful minimalist design and great, fast response with support. Highly recommend. Thanks Marketify!.",
+    desc: "Mazdey is a fantastic talent with a clear vision of how fashion should be tackled and with unique creativity. She has the capacity to listen to the main message that needs to be delivered and add her essence that will exceed your expectations.",
     img: "img/testimonials/1.jpg",
-    info1: "Alexander Walker",
-    info2: "Graphics Designer",
+    info1: "Veronica Madrigal",
+    info2:
+      "SEO | Content Creator | Brand Designer | Founder at Mekishico | Co-Founder at GeekGirlsMX",
   },
   {
-    desc: "I had a little problem and the support was just awesome to quickly solve the situation. And keep going on.",
+    desc: "La sensibilidad de Mazdey le ha convertido en un referente del Fashion Film, una herramienta sumamente importante para la industria de la moda que -en los últimos años- se ha convertido en algo obligado para cualquier marca. ¡Felicidades Mazdey!",
     img: "img/testimonials/2.jpg",
-    info1: "Baraka Clinton",
-    info2: "Construction Engineering",
+    info1: "Saúl Rubio Alzaga",
+    info2: "Comunicación enfocada al sector moda",
   },
   {
-    desc: "These people really know what they are doing! Great customer support availability and supperb kindness.",
+    desc: `Mazdey definitivamente tiene un gran conocimiento sobre la producción audiovisual.
+    Tuve la oportunidad de trabajar con ella en la conferencia: "Fashion Film como Estrategia de Marca", impartida a través de la iniciativa AMMeducación del Abierto Mexicano de la Moda, y es una persona sumamente profesional, creativa y amable.
+    Me complace decir que ha sido muy grato coincidir con Mazdey, y evidentemente es muy buena en su área de desarrollo 😄.`,
     img: "img/testimonials/3.jpg",
-    info1: "Armin Van Buuren",
-    info2: "Content Manager",
+    info1: "David Cerino",
+    info2:
+      "Empresario y promotor de arte y cultura en México. Fundador & Director General de Abierto Mexicano de la Moda.",
   },
 ];
 
@@ -147,8 +151,8 @@ export default function AboutDefault({ ActiveIndex }) {
                               <span>2014 - 2016</span>
                             </div>
                             <div className="place">
-                              <h3>Oxford Univercity</h3>
-                              <span>Master Degree</span>
+                              <h3>Mastered HQ, UK</h3>
+                              <span>Online Talent program by Nick Knight</span>
                             </div>
                           </div>
                         </li>
@@ -158,8 +162,11 @@ export default function AboutDefault({ ActiveIndex }) {
                               <span>2010 - 2014</span>
                             </div>
                             <div className="place">
-                              <h3>Texas Univercity</h3>
-                              <span>Bachelor Degree</span>
+                              <h3>Secretaria de cultura Jalisco, MX</h3>
+                              <span>
+                                Formación en el sector empresarial e industrias
+                                creativas
+                              </span>
                             </div>
                           </div>
                         </li>
@@ -169,8 +176,13 @@ export default function AboutDefault({ ActiveIndex }) {
                               <span>2008 - 2010</span>
                             </div>
                             <div className="place">
-                              <h3>Simone College</h3>
-                              <span>Associate Degree</span>
+                              <h3>
+                                Universidad de arte, arquitectura y diseño UDG,
+                                México{" "}
+                              </h3>
+                              <span>
+                                Lic. en Diseño para la comunicación gráfica{" "}
+                              </span>
                             </div>
                           </div>
                         </li>
