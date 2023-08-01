@@ -16,14 +16,14 @@ export default function HomeDefault({ ActiveIndex, handleOnClick }) {
       >
         <div className="cavani_tm_home">
           <div className="content">
-            <h3 className="name">Alan Walker</h3>
+            <h3 className="name">MAZDEY</h3>
             <span className="line"></span>
             <h3 className="job">
               <RotateTextAnimation />
             </h3>
             <div className="cavani_tm_button transition_link">
               <Link href="#contact" onClick={() => handleOnClick(4)}>
-                Get in Touch
+                My films
               </Link>
             </div>
           </div>
