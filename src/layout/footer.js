@@ -50,7 +50,7 @@ export default function Footer() {
                 >
                   <img
                     className="svg"
-                    src="img/svg/social/youtube.svg"
+                    src="img/svg/social/vimeo.svg"
                     alt="Mazdey Snob Vimeo profile link"
                   />
                 </a>
@@ -63,7 +63,7 @@ export default function Footer() {
                 >
                   <img
                     className="svg"
-                    src="img/svg/social/youtube.svg"
+                    src="img/svg/social/linkedin.svg"
                     alt="Mazdey Snob Linkedin profile link"
                   />
                 </a>
