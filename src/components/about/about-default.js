@@ -238,7 +238,7 @@ export default function AboutDefault({ ActiveIndex }) {
             </div>
             <div className="partners">
               <div className="cavani_tm_title">
-                <span>Awards</span>
+                <span>Key Awards</span>
               </div>
               <div className="list">
                 <ul>
@@ -250,7 +250,7 @@ export default function AboutDefault({ ActiveIndex }) {
                   </li>
                   <li>
                     <div className="list_inner">
-                      <img src="img/partners/2.png" alt="" />
+                      <img src="img/partners/2.jpg" alt="" />
                       <a className="cavani_tm_full_link" href="#"></a>
                     </div>
                   </li>
@@ -274,19 +274,73 @@ export default function AboutDefault({ ActiveIndex }) {
                   </li>
                   <li>
                     <div className="list_inner">
-                      <img src="img/partners/1.png" alt="" />
+                      <img src="img/partners/6.png" alt="" />
                       <a className="cavani_tm_full_link" href="#"></a>
                     </div>
                   </li>
                   <li>
                     <div className="list_inner">
-                      <img src="img/partners/2.png" alt="" />
+                      <img src="img/partners/7.png" alt="" />
                       <a className="cavani_tm_full_link" href="#"></a>
                     </div>
                   </li>
                   <li>
                     <div className="list_inner">
-                      <img src="img/partners/3.png" alt="" />
+                      <img src="img/partners/8.png" alt="" />
+                      <a className="cavani_tm_full_link" href="#"></a>
+                    </div>
+                  </li>
+                  <li>
+                    <div className="list_inner">
+                      <img src="img/partners/9.png" alt="" />
+                      <a className="cavani_tm_full_link" href="#"></a>
+                    </div>
+                  </li>
+                  <li>
+                    <div className="list_inner">
+                      <img src="img/partners/10.tif" alt="" />
+                      <a className="cavani_tm_full_link" href="#"></a>
+                    </div>
+                  </li>
+                  <li>
+                    <div className="list_inner">
+                      <img src="img/partners/11.png" alt="" />
+                      <a className="cavani_tm_full_link" href="#"></a>
+                    </div>
+                  </li>
+                  <li>
+                    <div className="list_inner">
+                      <img src="img/partners/12.png" alt="" />
+                      <a className="cavani_tm_full_link" href="#"></a>
+                    </div>
+                  </li>
+                  <li>
+                    <div className="list_inner">
+                      <img src="img/partners/13.jpeg" alt="" />
+                      <a className="cavani_tm_full_link" href="#"></a>
+                    </div>
+                  </li>
+                  <li>
+                    <div className="list_inner">
+                      <img src="img/partners/14.png" alt="" />
+                      <a className="cavani_tm_full_link" href="#"></a>
+                    </div>
+                  </li>
+                  <li>
+                    <div className="list_inner">
+                      <img src="img/partners/15.png" alt="" />
+                      <a className="cavani_tm_full_link" href="#"></a>
+                    </div>
+                  </li>
+                  <li>
+                    <div className="list_inner">
+                      <img src="img/partners/16.png" alt="" />
+                      <a className="cavani_tm_full_link" href="#"></a>
+                    </div>
+                  </li>
+                  <li>
+                    <div className="list_inner">
+                      <img src="img/partners/17.png" alt="" />
                       <a className="cavani_tm_full_link" href="#"></a>
                     </div>
                   </li>
