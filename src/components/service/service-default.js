@@ -22,7 +22,7 @@ export default function Service({ ActiveIndex }) {
       svg: <SVG_Custom1 />,
       text: "Creación de videos para moda, arte, música y estilo de vida. Impulsa tu marca con autenticidad y creatividad en el competitivo mundo de la moda y la publicidad a través del fashion film.",
       date: "August 9, 2021",
-      title: "Fashion Film",
+      title: "FASHION FILMS",
       text1:
         "Un fashion film es una poderosa herramienta para promocionar y proyectar tu marca, llegando al público de manera creativa y activa. En Snob Solutions, mi productora especializada, creamos films que capturan y transmiten el auténtico espíritu de tu marca, desarrollando el mejor concepto y narrativa para mostrar tu proyecto al mundo.",
       text2:
@@ -32,9 +32,9 @@ export default function Service({ ActiveIndex }) {
     {
       img: "img/news/2.jpg",
       svg: <SVG_Custom2 />,
-      text: "Developing website involves creating your website, making it one of the most vital parts of your marketing",
+      text: "Como directora audiovisual, estoy abierta a participar en proyectos diversos, comerciales e independientes. Disfruto explorar el lenguaje audiovisual y buscar nuevas narrativas que conecten profundamente con la audiencia.",
       date: "August 9, 2021",
-      title: "Explainer Videos",
+      title: "DIRECCIÓN AUDIOVISUAL",
       text1:
         "Cavani is a leading web design agency with an award-winning design team that creates innovative, effective websites that capture your brand, improve your conversion rates, and maximize your revenue to help grow your business and achieve your goals.",
       text2:
@@ -45,9 +45,9 @@ export default function Service({ ActiveIndex }) {
     {
       img: "img/news/3.jpg",
       svg: <SVG_Custom3 />,
-      text: "Developing website involves creating your website, making it one of the most vital parts of your marketing",
+      text: "Edición / montaje de video para todo tipo de proyectos audiovisuales. No importa si es un proyecto independiente o comercial estaré encantada de trabajar contigo. Desde 80€",
       date: "August 9, 2021",
-      title: "App Development",
+      title: "EDICIÓN / MONTAJE DE VIDEO",
       text1:
         "Cavani is a leading web design agency with an award-winning design team that creates innovative, effective websites that capture your brand, improve your conversion rates, and maximize your revenue to help grow your business and achieve your goals.",
       text2:
@@ -58,35 +58,9 @@ export default function Service({ ActiveIndex }) {
     {
       img: "img/news/4.jpg",
       svg: <SVG_Custom4 />,
-      text: "Developing website involves creating your website, making it one of the most vital parts of your marketing",
+      text: "Asesoramiento en desarrollo de proyectos creativos y marca personal Apoyo personalizado en el proceso para emprendedores, artistas y creativos. Logra el éxito de tu proyecto con orientación en conceptualización y comunicación estratégica. Desde 30€",
       date: "August 9, 2021",
-      title: "Educational Video",
-      text1:
-        "Cavani is a leading web design agency with an award-winning design team that creates innovative, effective websites that capture your brand, improve your conversion rates, and maximize your revenue to help grow your business and achieve your goals.",
-      text2:
-        "In today's digital world, your website is the first interaction consumers have with your business. That's why almost 95 percent of a user's first impression relates to web design. It's also why web design services can have an immense impact on your company's bottom line.",
-      text3:
-        "That's why more companies are not only reevaluating their website's design but also partnering with Kura, the web design agency that's driven more than $2.4 billion in revenue for its clients. With over 50 web design awards under our belt, we're confident we can design a custom website that drives sales for your unique business.",
-    },
-    {
-      img: "img/news/5.jpg",
-      svg: <SVG_Custom5 />,
-      text: "Developing website involves creating your website, making it one of the most vital parts of your marketing",
-      date: "August 9, 2021",
-      title: "3D Game Art",
-      text1:
-        "Cavani is a leading web design agency with an award-winning design team that creates innovative, effective websites that capture your brand, improve your conversion rates, and maximize your revenue to help grow your business and achieve your goals.",
-      text2:
-        "In today's digital world, your website is the first interaction consumers have with your business. That's why almost 95 percent of a user's first impression relates to web design. It's also why web design services can have an immense impact on your company's bottom line.",
-      text3:
-        "That's why more companies are not only reevaluating their website's design but also partnering with Kura, the web design agency that's driven more than $2.4 billion in revenue for its clients. With over 50 web design awards under our belt, we're confident we can design a custom website that drives sales for your unique business.",
-    },
-    {
-      img: "img/news/6.jpg",
-      svg: <SVG_Custom6 />,
-      text: "Developing website involves creating your website, making it one of the most vital parts of your marketing",
-      date: "August 9, 2021",
-      title: "Presentations",
+      title: "ASESORIA CREATIVA",
       text1:
         "Cavani is a leading web design agency with an award-winning design team that creates innovative, effective websites that capture your brand, improve your conversion rates, and maximize your revenue to help grow your business and achieve your goals.",
       text2:
