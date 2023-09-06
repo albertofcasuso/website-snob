@@ -113,7 +113,7 @@ export default function AboutDefault({ ActiveIndex }) {
                       <li>Dirección audiovisual</li>
                       <li>Fashion Film</li>
                       <li>Edición de video</li>
-                      <li>Dirección de arte </li>
+                      <li>Conferencias y talleres</li>
                       <li>Asesorías para proyectos creativos</li>
                     </ul>
                   </div>
