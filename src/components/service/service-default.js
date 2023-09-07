@@ -10,11 +10,11 @@ import {
   SVG_Custom6,
 } from "../../plugin/svg";
 export default function Service({ ActiveIndex }) {
-  const [isOpen7, setIsOpen7] = useState(false);
+  const [isOpen, setisOpen] = useState(false);
   const [modalContent, setModalContent] = useState({});
 
   function toggleModalFour() {
-    setIsOpen7(!isOpen7);
+    setisOpen(!isOpen);
   }
   const service = [
     {
@@ -126,7 +126,7 @@ export default function Service({ ActiveIndex }) {
 
       {modalContent && (
         <Modal
-          isOpen={isOpen7}
+          isOpen={isOpen}
           onRequestClose={toggleModalFour}
           contentLabel="My dialog"
           className="mymodal"
