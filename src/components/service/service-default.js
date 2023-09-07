@@ -134,7 +134,7 @@ export default function Service({ ActiveIndex }) {
                     <h3>{modalContent.title}</h3>
                   </div>
                   <div className="descriptions">
-                    <ReactMarkdown children={modalContent.content} />
+                    <ReactMarkdown>{modalContent.content}</ReactMarkdown>
                   </div>
                 </div>
               </div>
