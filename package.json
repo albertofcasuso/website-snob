@@ -4,6 +4,7 @@
   "packageManager": "pnpm@11.1.3",
   "scripts": {
     "dev": "pnpm --filter @website-snob/web run dev",
-    "deploy": "pnpm --filter @website-snob/web run deploy"
+    "deploy": "pnpm --filter @website-snob/web run deploy",
+    "deploy:preview": "pnpm --filter @website-snob/web run preview"
   }
 }
