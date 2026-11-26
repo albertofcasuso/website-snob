@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/wrangler/config-schema.json",
-  "name": "website-snob",
+  "name": "snobsolutions-web",
   "account_id": "cc0110fca0187f0ab5e4fa83c71b1fa4",
   "compatibility_date": "2026-10-01",
   "assets": {
