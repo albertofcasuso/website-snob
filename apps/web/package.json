@@ -1,5 +1,5 @@
 {
-  "name": "@mazdey/web",
+  "name": "@website-snob/web",
   "private": true,
   "scripts": {
     "dev": "wrangler dev",
