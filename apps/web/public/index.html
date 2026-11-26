@@ -1,0 +1,268 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Mazdey, directora audiovisual y formadora. Cine, fashion film y narrativas disidentes."
+    />
+    <title>MAZDEY — Directora audiovisual y formadora</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Space+Grotesk:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      :root {
+        --bg: #29123d;
+        --heading: #e4c5ff;
+        --body: #eadcf3;
+        --muted: #d9b7f4;
+        --line: #795694;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        background: var(--bg);
+        color: var(--body);
+        font-family: "Space Grotesk", Arial, sans-serif;
+        font-size: 17px;
+        line-height: 1.55;
+      }
+      main {
+        width: min(100% - 64px, 760px);
+        margin: auto;
+        padding: 40px 0 32px;
+      }
+      header,
+      footer,
+      .contact {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 16px;
+      }
+      .eyebrow,
+      footer,
+      .role {
+        color: var(--muted);
+        font-size: 12px;
+        font-weight: 500;
+        letter-spacing: 0.045em;
+      }
+      .hero {
+        padding: 64px 0 36px;
+      }
+      h1 {
+        font-size: clamp(54px, 15vw, 156px);
+        line-height: 0.85;
+        letter-spacing: -0.075em;
+        margin: 0 0 20px;
+        color: var(--heading);
+        font-weight: 700;
+      }
+      .wordmark {
+        display: block;
+        width: 100%;
+        height: auto;
+        overflow: visible;
+      }
+      .role {
+        font-size: clamp(11px, 2vw, 15px);
+        margin: 0;
+        color: var(--heading);
+      }
+      section {
+        border-top: 1px solid var(--line);
+        padding: 32px 0;
+      }
+      h2 {
+        font-size: clamp(25px, 4vw, 36px);
+        line-height: 1.15;
+        letter-spacing: -0.035em;
+        color: var(--heading);
+        margin: 0 0 24px;
+      }
+      p {
+        margin: 0 0 18px;
+      }
+      .bio {
+        max-width: 530px;
+      }
+      .stats {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 28px;
+        margin-top: 30px;
+        max-width: 530px;
+      }
+      .stats strong {
+        display: block;
+        color: var(--heading);
+        font-size: 42px;
+        line-height: 1.1;
+        letter-spacing: -0.05em;
+      }
+      .stats span {
+        font-size: 13px;
+        color: var(--muted);
+      }
+      .contact {
+        color: var(--heading);
+        font-size: 27px;
+        font-weight: 700;
+        text-decoration: none;
+        line-height: 1.2;
+        margin-top: 14px;
+      }
+      .contact:hover {
+        text-decoration: underline;
+      }
+      footer {
+        border-top: 1px solid var(--line);
+        padding-top: 28px;
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        gap: 24px;
+      }
+      nav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 16px 28px;
+      }
+      nav a {
+        font-size: 17px;
+        font-weight: 500;
+        color: var(--heading);
+        text-decoration: none;
+        display: inline-flex;
+        align-items: center;
+        gap: 5px;
+        min-height: 44px;
+      }
+      nav a:hover {
+        text-decoration: underline;
+      }
+      footer > span {
+        font-size: 12px;
+      }
+      a {
+        color: inherit;
+        text-underline-offset: 4px;
+      }
+      a:focus-visible {
+        outline: 2px solid var(--heading);
+        outline-offset: 5px;
+      }
+      @media (max-width: 480px) {
+        main {
+          width: calc(100% - 40px);
+          padding-top: 25px;
+        }
+        .hero {
+          padding: 48px 0 28px;
+        }
+        section {
+          padding: 26px 0;
+        }
+        footer {
+          align-items: flex-start;
+        }
+        .eyebrow {
+          font-size: 10px;
+        }
+        .contact {
+          font-size: 23px;
+        }
+        nav {
+          gap: 8px 16px;
+          width: 100%;
+        }
+        nav a {
+          font-size: 16px;
+        }
+        .stats strong {
+          font-size: 36px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <header class="eyebrow">
+        <span>CINE · FASHION FILM · CULTURA VISUAL</span><span>ES / MX</span>
+      </header>
+      <div class="hero">
+        <h1>
+          <svg
+            class="wordmark"
+            viewBox="0 0 340 91"
+            role="img"
+            aria-label="MAZDEY"
+          >
+            <text
+              x="0"
+              y="73"
+              font-family="Archivo Black, Arial Black, sans-serif"
+              font-size="81"
+              font-weight="400"
+              letter-spacing="-5"
+              fill="currentColor"
+              textLength="337"
+              lengthAdjust="spacingAndGlyphs"
+            >
+              MAZDEY
+            </text>
+          </svg>
+        </h1>
+        <p class="role">DIRECTORA AUDIOVISUAL Y FORMADORA</p>
+      </div>
+      <section>
+        <div class="bio">
+          <h2>Cine, fashion film y narrativas disidentes.</h2>
+          <p>
+            Mexicana migrante en España. Especializada en fashion film, cine y
+            cultura visual.
+          </p>
+          <p>
+            Exploro la moda como lenguaje de identidad y la fantasía como forma
+            de resistencia y subversión, desde una mirada decolonial.
+          </p>
+        </div>
+        <div class="stats">
+          <div>
+            <strong>120+</strong><span>Festivales internacionales</span>
+          </div>
+          <div><strong>23+</strong><span>Premios</span></div>
+        </div>
+      </section>
+      <section>
+        <div class="eyebrow">DIRECCIÓN CREATIVA · CONFERENCIAS · TALLERES</div>
+        <!-- PROGRAMADOR: sustituir el correo de ejemplo antes de publicar. --><a
+          class="contact"
+          href="mailto:correo@ejemplo.com"
+          >Contacto y proyectos <span aria-hidden="true">↗</span></a
+        >
+      </section>
+      <footer>
+        <!-- PROGRAMADOR: sustituir los enlaces de ejemplo por los perfiles reales antes de publicar. -->
+        <nav aria-label="Redes sociales">
+          <a href="https://www.instagram.com/"
+            >Instagram <span aria-hidden="true">↗</span></a
+          ><a href="https://vimeo.com/"
+            >Vimeo <span aria-hidden="true">↗</span></a
+          ><a href="https://www.linkedin.com/"
+            >LinkedIn <span aria-hidden="true">↗</span></a
+          >
+        </nav>
+        <span>© 2026 MAZDEY</span>
+      </footer>
+    </main>
+  </body>
+</html>

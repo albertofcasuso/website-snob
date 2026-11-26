@@ -1,0 +1,9 @@
+{
+  "name": "website-snob",
+  "private": true,
+  "packageManager": "pnpm@11.1.3",
+  "scripts": {
+    "dev": "pnpm --filter @mazdey/web run dev",
+    "deploy": "pnpm --filter @mazdey/web run deploy"
+  }
+}
